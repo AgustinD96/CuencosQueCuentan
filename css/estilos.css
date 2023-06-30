@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+}
+/* INICIO INDEX */
+/* NAV */
+.botonera{
+    background-color: white;
+}
+
+ .botonera img{
+    width: 50px;
+    margin-left: 25px;
+ }
+  .botonera li a:hover{
+    color: white;
+    background-color: rgba(66,171,52,255);
+    padding: 5px;
+  }
+
+.btn{
+    background-color: rgba(66,171,52,255);
+    color: white;
+    border: none;
+}
+ .btn svg{
+    display: flex;
+    justify-content: center;
+ }
+
+ /* HEADER */
+ .carrusel img{
+    height: 400px;
+    object-fit: cover;
+ }
+
+ /* INTRODUCCION */
+ .Introduccion{
+    background-color: rgba(66,171,52,255);
+    /* margin: 25px; */
+    padding: 10px;
+ }
+ .Introduccion h1{
+    text-align: center;
+ }
+  .Introduccion p{
+    text-align: center;
+  }
+
+/* SECCION PRODUCTOS */
+.Productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+ .Productos h2, p {
+    text-align: center;
+ }
+  .Productos .btn{
+    display: flex;
+    justify-content: center;
+    border: none;
+  }
+
+  /* SECCION CATEGORIAS */
+.Categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+ .Categorias a img:hover{
+    background-color: green;
+ }
+
+ .img-thumbnail{
+    background-color: rgba(66,171,52,255);
+    width: 200px;
+    padding: 20px; 
+    padding: 10px;
+  }
+
+/* SECCION NOTICIAS */
+.NoticiasIndex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+    padding: 20px;  
+}
+.NoticiasIndex .NoticiaUno img{
+    width: 500px;
+    height: 350px;
+ } 
+ .NoticiasIndex .NoticiaDos img{
+    width: 500px;
+    height: 350px;  
+ }
+  .NoticiasIndex .DivContenidoTexto{
+    color: black;
+    background-color: rgba(128, 128, 128, 0.7);
+    text-align: center;
+    margin-top: 200px;
+  }
+/* FIN INDEX */
+
+/* INICIO PRODUCTOS */
+.ProductosProductos{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: 20px auto;
+    gap: 2px;
+    grid-template-areas:
+    "filtros destacado1 destacado1 destacado2 destacado2 desplegable"
+    "filtros destacado1 destacado1 destacado2 destacado2 desplegable"
+    "filtros producto1 producto2 producto3 producto4 ."
+}
+
+.ProductosDesplegable{
+    grid-area: desplegable;
+    padding: 5px;
+    margin-right: 10px;
+}
+ .ProductosDesplegable a:hover{
+  background-color: green;
+ }
+
+.FiltrosProductos{
+  grid-area: filtros;
+  padding: 0 20px 30px 30px;
+  color: rgb(134, 130, 132);
+  font-size: .9em;
+  margin-bottom: 4px;
+  border: solid 1px rgb(199, 197, 197);
+  background-color: white;
+  width: 200px;
+  display: inline-block;
+}
+
+.ProductosDestacados{
+   display: flex;
+  justify-content: center; 
+}
+
+.ProductoDestacado1{
+  grid-area: destacado1;
+  padding: 5px; 
+  width: 500px;
+}
+ .ProductoDestacado1 img{
+  height: 200px;
+  border: solid black 2px;
+  border-radius: 5px;
+  
+  
+ }
+
+.ProductoDestacado2{
+  grid-area: destacado2;
+  padding: 5px; 
+  width: 500px;
+}
+.ProductoDestacado2 img{
+  height: 200px;
+  border: solid black 2px;
+  border-radius: 5px;
+ }
+
+.Producto1,
+.Producto2,
+.Producto3,
+.Producto4 {
+  width: 250px;
+  height: 480px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.Producto1,
+.Producto2,
+.Producto3,
+.Producto4 h2 p{
+    text-align: center;
+ }
+ .Producto1,
+ .Producto2,
+ .Producto3,
+ .Producto4 .btn{
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+.Producto1,
+.Producto2,
+.Producto3,
+.Producto4 img{
+  object-fit: cover;
+}
+ /* FIN PRODUCTOS */
+/* INICIO CUIDADOS RECOMENDADOS */
+.IntroduccionCuidados{
+  background-color: rgba(66,171,52,255);
+  padding: 20px;
+  margin: 10px;
+}
+ .IntroduccionCuidados h1{
+  text-align: center;
+ }
+
+.DesplegableCuidados{
+  padding: 20px;
+  background-color: white;
+}
+
+.accordion-body{
+  background-color: rgba(66,171,52,255);
+}
+/* FIN CUIDADOS RECOMENDADOS */
+
+/* INICIA SOBRE NOSOTROS */
+.Nosotros{
+  padding: 20px;
+}
+/* FIN SOBRE NOSOTROS */
+
+/* CONTACTO*/
+.Contacto{
+  padding: 20px;
+}
+/* FOOTER */
+footer{
+    background-color: green;
+    padding: 10px ;
+}
+
+footer svg{
+    width: 40px;
+    height: 40px;
+    fill: white;
+    margin-right: 10px;
+}
+
+  
+
+
+
+ 
+
+
+ 
