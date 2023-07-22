@@ -1,0 +1,35 @@
+nav{
+    img{
+        width: 50px;
+    }
+    .botnesNavegacion{
+        ul{
+            a{
+             &:hover{
+                background-color: $colorPrincipal;
+                border-radius: 5px;
+                color: $colorTres;
+                
+               }
+            }
+        }
+    }
+    .listaProductos{
+        background-color: $colorPrincipal;
+        li{
+            padding: 5px;
+        }
+    }
+    .segundosBotones{
+        input{
+            border: solid 3px $colorPrincipal;
+        }
+        .btn{
+            background-color: $colorPrincipal;
+            border: solid 2px $colorTres;
+            color: $colorTres;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
