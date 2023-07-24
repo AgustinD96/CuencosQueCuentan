@@ -1,3 +1,21 @@
+.botonGeneral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(66, 171, 52);
+  border-radius: 8px;
+}
+.botonGeneral:hover {
+  background-color: rgb(16, 101, 46);
+}
+
+h2 {
+  font-size: 1.1em;
+  line-height: 1.4em;
+  color: black;
+  padding: 10px;
+}
+
 nav img {
   width: 50px;
 }
@@ -5,6 +23,9 @@ nav .botnesNavegacion ul a:hover {
   background-color: rgb(66, 171, 52);
   border-radius: 5px;
   color: white;
+}
+nav .botnesNavegacion ul a:active {
+  background-color: rgb(66, 171, 52);
 }
 nav .listaProductos {
   background-color: rgb(66, 171, 52);
@@ -118,6 +139,62 @@ footer {
   height: 60px;
 }
 
+.filtrosProductos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 98px;
+}
+.filtrosProductos .btn {
+  background-color: rgb(66, 171, 52);
+  border: none;
+}
+.filtrosProductos .btn:hover {
+  background-color: rgb(16, 101, 46);
+}
+.filtrosProductos .btn:active {
+  background-color: rgb(16, 101, 46);
+}
+
+.productosPagina {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productosPagina .card {
+  cursor: pointer;
+}
+.productosPagina .card img {
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.productosPagina .card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.productosPagina .card .card-body h2 {
+  font-size: larger;
+}
+.productosPagina .card .btn {
+  background-color: rgb(66, 171, 52);
+  border: none;
+}
+.productosPagina .card .btn:hover {
+  background-color: rgb(16, 101, 46);
+}
+
+.IntroduccionCuidados {
+  background-color: rgb(66, 171, 52);
+  padding: 20px;
+  border-radius: 8px;
+}
+.IntroduccionCuidados h1, .IntroduccionCuidados p {
+  text-align: center;
+}
+
 @media (max-width: 575.98px) {
   .encabezadoIndex {
     padding: 0;
@@ -196,6 +273,19 @@ footer {
     border-radius: 5px;
     padding: 5px;
     margin-left: 50px;
+  }
+}
+@media (max-width: 575.98px) {
+  .filtrosProductos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .filtrosProductos .desplegableFiltros {
+    margin-right: 56px;
+  }
+  .productosPagina figure .card {
+    border: none;
   }
 }
 

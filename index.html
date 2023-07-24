@@ -21,29 +21,40 @@
         <div class="botnesNavegacion collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
                   Productos
                 </a>
                 <ul class="listaProductos dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Ver Todos los Productos</a></li><hr>
-                  <li><a class="dropdown-item" href="#">Categorias</a></li><hr>
-                  <li><a class="dropdown-item" href="#">Tazas</a></li><hr>
-                  <li><a class="dropdown-item" href="#">Platos</a></li><hr>
-                  <li><a class="dropdown-item" href="#">Fuentes</a></li><hr>
-                  <li><a class="dropdown-item" href="#">Macetas</a></li><hr>
-                  <li><a class="dropdown-item" href="#">Porta Macetas</a></li><hr>
-                  <li><a class="dropdown-item" href="#">Lamparas</a></li><hr>
-                  <li><a class="dropdown-item" href="#">Sets</a></li>
+                  <li>
+                    <a class="dropdown-item" href="paginas/productos.html">Ver Todos los Productos</a>
+                  </li><hr>
+                  <li>
+                    <div class="btn-group">
+                     <button type="button" class="btn">Categorias</button>
+                     <button type="button" class="btn">
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                     </button>
+                     <ul class="">
+                      <li><a class="dropdown-item" href="#">Tazas</a></li>
+                      <li><a class="dropdown-item" href="#">Platos</a></li>
+                      <li><a class="dropdown-item" href="#">Fuentes</a></li>
+                      <li><a class="dropdown-item" href="#">Macetas</a></li>
+                      <li><a class="dropdown-item" href="#">Porta Macetas</a></li>
+                      <li><a class="dropdown-item" href="#">Lamparas</a></li>
+                      <li><a class="dropdown-item" href="#">Sets</a></li>
+                     </ul>
+                    </div>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Cuidados Recomendados</a>
+                <a class="nav-link" href="paginas/cuidadosrecomendados.html">Cuidados Recomendados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre Nosotras</a>
+                <a class="nav-link" href="paginas/sobrenosotros.html">Sobre Nosotras</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="paginas/contacto.html">Contacto</a>
               </li>
           </ul>
           <form class="segundosBotones d-flex" role="search">
@@ -106,7 +117,6 @@
       <!-- TERMINA BIENVENIDA -->
       <!-- INICIA NUEVOS PRODUCTOS -->
       <section class="carruselProductos">
-      <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <hr><h2>Productos Destacados</h2><hr>
           <div class="tarjetasProductosIndex carousel-item active">
@@ -167,7 +177,6 @@
             </div>
           </div> 
         </div>
-      </div>
       </section>
       <!-- TERMINA NUEVOS PRODUCTOS -->
       <!-- INICIA CATEGORIAS -->

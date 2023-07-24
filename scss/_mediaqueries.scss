@@ -1,3 +1,4 @@
+// INICIA QUERIES INDEX
 @media (max-width: 575.98px) { 
     .encabezadoIndex{
         padding: 0;
@@ -79,3 +80,24 @@
         }
     }
 }
+// TERMINA QUERIES INDEX
+
+// INICIA QUERIES PRODUCTOS
+@media (max-width: 575.98px) {
+    .filtrosProductos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .desplegableFiltros{
+            margin-right: 56px;
+        }       
+    }
+    .productosPagina{
+        figure{
+            .card{
+                border: none;
+            }
+        }
+    }
+}
+// TERMINA QUERIES PRODUCTOS

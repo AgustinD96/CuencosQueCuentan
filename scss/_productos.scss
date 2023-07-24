@@ -1,0 +1,47 @@
+.filtrosProductos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 98px ;
+    .btn{
+        background-color: $colorPrincipal;     
+        border: none;
+        &:hover{
+            background-color: $colorSecundario;
+        }
+        &:active{
+            background-color: $colorSecundario;
+        }
+    }
+
+}
+.productosPagina{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .card{
+        cursor: pointer;
+        img{
+            height: 280px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .card-body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            h2{
+                font-size: larger;
+            }
+        }
+        .btn{
+            background-color: $colorPrincipal;
+            border: none;
+            &:hover{
+                background-color: $colorSecundario;
+            }
+        }
+    }
+}

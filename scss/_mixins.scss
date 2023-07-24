@@ -1,0 +1,27 @@
+// EXTENDS. 
+.botonGeneral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $colorPrincipal;
+    border-radius: 8px;
+    &:hover{
+        background-color: $colorSecundario;
+    }
+}
+
+//  MIXINS. Son grupos de acciones o propiedades que repetimos y que podemos ir modificando.
+@mixin textos($size,$line,$color,$padding){
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+    padding: $padding;
+}
+
+h2{
+    @include textos(1.1em, 1.4em, black, 10px)
+}
+
+// MAPS
+
+

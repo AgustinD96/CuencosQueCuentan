@@ -8,9 +8,11 @@ nav{
              &:hover{
                 background-color: $colorPrincipal;
                 border-radius: 5px;
-                color: $colorTres;
-                
+                color: $colorTres;              
                }
+               &:active{
+                background-color: $colorPrincipal;
+            }
             }
         }
     }
