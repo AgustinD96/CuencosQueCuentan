@@ -9,12 +9,13 @@
     <!-- Mi CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <!-- INICIA NAV -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="barraNavegacion container-fluid">
-        <a class="navbar-brand" href="#"><img src="Imagenes/Logos/Logo.jpeg"alt="Logo de Cuencos que Cuentan"></a>
+        <a class="navbar-brand" href="index.html"><img src="Imagenes/Logos/Logo.jpeg"alt="Logo de Cuencos que Cuentan"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,13 +36,13 @@
                       <span class="visually-hidden">Toggle Dropdown</span>
                      </button>
                      <ul class="">
-                      <li><a class="dropdown-item" href="#">Tazas</a></li>
-                      <li><a class="dropdown-item" href="#">Platos</a></li>
-                      <li><a class="dropdown-item" href="#">Fuentes</a></li>
-                      <li><a class="dropdown-item" href="#">Macetas</a></li>
-                      <li><a class="dropdown-item" href="#">Porta Macetas</a></li>
-                      <li><a class="dropdown-item" href="#">Lamparas</a></li>
-                      <li><a class="dropdown-item" href="#">Sets</a></li>
+                      <li><a class="dropdown-item" href="paginas/error404.html">Tazas</a></li>
+                      <li><a class="dropdown-item" href="paginas/error404.html">Platos</a></li>
+                      <li><a class="dropdown-item" href="paginas/error404.html">Fuentes</a></li>
+                      <li><a class="dropdown-item" href="paginas/error404.html">Macetas</a></li>
+                      <li><a class="dropdown-item" href="paginas/error404.html">Porta Macetas</a></li>
+                      <li><a class="dropdown-item" href="paginas/error404.html">Lamparas</a></li>
+                      <li><a class="dropdown-item" href="paginas/error404.html">Sets</a></li>
                      </ul>
                     </div>
                   </li>
@@ -73,21 +74,27 @@
     <main class="mainIndex">
       <!-- INICIA HEADER -->
       <header class="encabezadoIndex">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div id="carruselIndex carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="imagenesCarrusel1 carousel-inner">
+            <a href="paginas/error404.html">
             <div class="carousel-item active">
               <img src="Imagenes/Headers/IMG_20230716_183604062.png" alt="Articulo Destacado: Sets personalizados para regalo.">
+            </a>
             </div>
+            <a href="paginas/error404.html">
             <div class="carousel-item">
               <img src="Imagenes/Headers/IMG_20230716_183713083 (1).jpg" alt="Articulo Destacado: Queremos contarte como hacemos los nos gusta">
+            </a>
             </div>
             <div class="carousel-item">
+              <a href="paginas/error404.html">
               <img src="Imagenes/Headers/IMG_20230716_183955518.jpg" alt="Articulo Destacado: Conoce nuestras nuevas colecciones">
+            </a>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -102,7 +109,7 @@
       </header>
       <!-- TERMINA HEADER -->
       <!-- INICIA BIENVENIDA -->
-      <section>
+      <section class="introduccionIndexgrid">
         <article class="introduccionIndex">
           <h1>¡Bienvenido!</h1>
           <p>
@@ -117,62 +124,47 @@
       <!-- TERMINA BIENVENIDA -->
       <!-- INICIA NUEVOS PRODUCTOS -->
       <section class="carruselProductos">
-        <div class="carousel-inner">
+        <div class="carruselProductos carousel-inner">
           <hr><h2>Productos Destacados</h2><hr>
           <div class="tarjetasProductosIndex carousel-item active">
-            <div class="card" style="width: 15rem;">
-            <img src="Imagenes/Productos/Cuencos/IMG_20230716_180911154.jpg" class="card-img-top" alt="...">
-            <div class="nuevoProducto card-img-overlay">
-              <img class="flaticons" src="Imagenes/flaticons/Flaticons Indicativos/nuevo-producto.png" alt="" >
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">Cuencos</h3>
-              <p><b>$3.500</b></p>
-              <a href="#" class="btn btn-primary">Ver Producto</a>
-            </div>
-            </div>
-            <div class="card" style="width: 15rem;">
-              <img src="Imagenes/Productos/Tazas Chinas/IMG_20230716_175653190.jpg" class="card-img-top" alt="...">
-              <div class="nuevoProducto card-img-overlay">
-                <img class="flaticons" src="Imagenes/flaticons/Flaticons Indicativos/nuevo-producto.png" alt="" >
+            <div class="card producto1" style="width: 15rem;">
+              <img src="Imagenes/Productos/Cuencos/IMG_20230716_180911154.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Cuencos</h3>
+                <p><b>$3.500</b></p>
+                <a href="paginas/error404.html" class="btn btn-primary">Ver Producto</a>
               </div>
+            </div>
+            <div class="card producto2" style="width: 15rem;">
+              <img src="Imagenes/Productos/Tazas Chinas/IMG_20230716_175653190.jpg" class="card-img-top" alt="...">            
               <div class="card-body">
                 <h3 class="card-title">Tazas Chinas</h3>
                 <p><b>$5.500</b></p>
-                <a href="#" class="btn btn-primary">Ver Producto</a>
+                <a href="paginas/error404.html" class="btn btn-primary">Ver Producto</a>
               </div>
             </div>
-            <div class="card" style="width: 15rem;">
+            <div class="card producto3" style="width: 15rem;">
               <img src="Imagenes/Productos/Tazas/IMG_20230716_180439681.jpg" class="card-img-top" alt="...">
-              <div class="nuevoProducto card-img-overlay">
-                <img class="flaticons" src="Imagenes/flaticons/Flaticons Indicativos/nuevo-producto.png" alt="" >
-              </div>
               <div class="card-body">
                 <h3>Cuenco Bambu</h3>
                 <p><b>$3.000</b></p>
-                <a href="#" class="btn btn-primary">Ver Producto</a>
+                <a href="paginas/error404.html" class="btn btn-primary">Ver Producto</a>
               </div>
             </div>
-            <div class="card" style="width: 15rem;">
-              <img src="Imagenes/Productos/Tazas/IMG_20230716_180439681.jpg" class="card-img-top" alt="...">
-              <div class="nuevoProducto card-img-overlay">
-                <img class="flaticons" src="Imagenes/flaticons/Flaticons Indicativos/nuevo-producto.png" alt="" >
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">Compoteras</h3>
+            <div class="card producto4" style="width: 15rem;">
+              <img src="Imagenes/Productos/Tazas/IMG_20230716_181623412.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+                <h3 class="card-title">Tazas</h3>
                 <p><b>$3.000</b></p>
-                <a href="#" class="btn btn-primary">Ver Producto</a>
+                <a href="paginas/error404.html" class="btn btn-primary">Ver Producto</a>
               </div>
             </div>
-            <div class="card" style="width: 15rem;">
+            <div class="card producto5" style="width: 15rem;">
               <img src="Imagenes/Productos/Tazas/IMG_20230716_180720925.jpg" class="card-img-top" alt="...">
-              <div class="nuevoProducto card-img-overlay">
-                <img class="flaticons" src="Imagenes/flaticons/Flaticons Indicativos/nuevo-producto.png" alt="" >
-              </div>
               <div class="card-body">
-                <h3 class="card-title">Compoteras</h3>
+                <h3 class="card-title">Compoteras</h3>               
                 <p><b>$3.000</b></p>
-                <a href="#" class="btn btn-primary">Ver Producto</a>
+                <a href="paginas/error404.html" class="btn btn-primary">Ver Producto</a>
               </div>
             </div>
           </div> 
@@ -180,7 +172,7 @@
       </section>
       <!-- TERMINA NUEVOS PRODUCTOS -->
       <!-- INICIA CATEGORIAS -->
-      <section>
+      <section class="seccionCategorias">
         <article class="introduccionCategorias">
           <h2>Conoce algunas de nuestras categorias:</h2>
           <p>Esperamos que disfrutes explorando nuestras categorias y encuentres piezas que te enamoren. Trabajamos con pasión y dedicación para ofrecerte productos de alta calidad que reflejen la belleza y la esencia de la cerámica artística.</p>
@@ -188,7 +180,7 @@
         <hr>
         <section class="categoriasIndex">
         <div class="imagenesCategorias card text-bg-dark">
-          <a href="">
+          <a href="paginas/error404.html">
           <img src="Imagenes/Productos/Cuencos/IMG_20230716_180911154.jpg" class="card-img" alt="...">
           <div class="flaticonCategoria card-img-overlay">
             <img src="Imagenes/flaticons/bol.png" alt="">
@@ -196,7 +188,7 @@
           </a>
         </div>
         <div class="imagenesCategorias card text-bg-dark">
-          <a href="">
+          <a href="paginas/error404.html">
           <img src="Imagenes/Productos/Platos/aea18605-f78d-46ee-8bda-147ab7f4bf00.jpeg" class="card-img" alt="...">
           <div class="flaticonCategoria card-img-overlay">
             <img src="Imagenes/flaticons/platos.png" alt="">
@@ -206,7 +198,7 @@
         </section>
         <section class="categoriasIndex">
           <div class="imagenesCategorias card text-bg-dark">
-            <a href="">
+            <a href="paginas/error404.html">
             <img src="Imagenes/Productos/Tazas/IMG_20230716_181623412.jpg" class="card-img" alt="...">
             <div class="flaticonCategoria card-img-overlay">
               <img src="Imagenes/flaticons/taza.png" alt="">
@@ -214,7 +206,7 @@
             </a>
           </div>
           <div class="imagenesCategorias card text-bg-dark">
-            <a href="">
+            <a href="paginas/error404.html">
             <img src="Imagenes/Productos/Porta Macetas/IMG_20230716_183223496.jpg" class="card-img" alt="...">
             <div class="flaticonCategoria card-img-overlay">
               <img src="Imagenes/flaticons/colgante.png" alt="">
@@ -228,9 +220,16 @@
 
     </main>
     <footer>
-      <div class="card-footer bg-transparent border-success">Footer</div>
+      <div class="card-footer bg-transparent border-success">
+        <a href="https://www.instagram.com/cuencos_que_cuentan/" target="_blank">
+          <img src="Imagenes/flaticons/Redes Sociales/instagram (1).png" alt="">
+        </a>
+      </div>
     </footer>
     <!-- Script de BS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Script de Animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init();</script>
   </body>
 </html>

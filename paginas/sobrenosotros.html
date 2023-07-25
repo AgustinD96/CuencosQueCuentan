@@ -9,6 +9,7 @@
     <!-- Mi CSS -->
     <link rel="stylesheet" href="../css/main.css">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <!-- Inicia NAV -->
@@ -70,21 +71,21 @@
       </div>
     </nav>
     <main>
-      <section>
-        <article>
+      <section class="paginaNosotros">
+        <article data-aos="fade-down" class="introduccionNosotros">
           <div class="card mb-3">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="../Imagenes/Headers/IMG_20230716_181002409.jpgnosotors.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title">¡Vamos a Conocernos!</h1>
               <p class="card-text">Bienvenidos a <b>Cuencos que Cuentan</b>, donde la pasión por la cerámica se fusiona con la creatividad y el arte. Somos Graciela y Ester, somos dos hermanas apasionadas por la creatividad y el arte, y hemos decidido unir nuestras fuerzas para dar vida a un proyecto único. A través de nuestros diseños únicos y hechos con amor, buscamos transmitir la belleza y la magia de la cerámica a todos aquellos que aprecian lo hecho a mano y con dedicación.</p>
             </div>
           </div>
         </article>
-        <article>
-          <div class="card mb-3" style="max-width: 1280px;">
-            <div class="row g-0">
-              <div class="imagenPruevaDos col-md-4">
-                <img src="" class="img-fluid" alt="...">
+        <article data-aos="fade-right">
+          <div class="card mb-3" style="max-width: 1000px;">
+            <div class="nosotrosPrimera row g-0">
+              <div class="imagenPrimera col-md-4">
+                <img src="../Imagenes/nosotros/somos.jpeg" class="img-fluid" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -94,11 +95,11 @@
             </div>
           </div>
         </article>
-        <article>
-          <div class="card mb-3" style="max-width: 1280px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="...">
+        <article data-aos="fade-left">
+          <div class="card mb-3" style="max-width: 1000px;">
+            <div class="nosotrosSegunda row g-0">
+              <div class="imagenSegunda col-md-4">
+                <img src="../Imagenes/nosotros/inspira.jpg" class="img-fluid" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -108,42 +109,48 @@
               </div>
             </div>
           </div>
+          
         </article>
-        <article>
-          <div class="card mb-3" style="max-width: 1280px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="...">
+        <article data-aos="fade-right">
+          <div class="card mb-3" style="max-width: 1000px;">
+            <div class="nosotrosTercera row g-0">
+              <div class="imagenTercera col-md-4">
+                <img src="../Imagenes/nosotros/llegar.jpeg" class="img-fluid" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
 
                   <p class="card-text">No hay dos piezas iguales porque están hechas a mano. Estas variaciones en la terminación o en su apariencia no son consideradas imperfecciones, sino la marca de 
-                    una pieza única terminada a mano.
+                  una pieza única terminada a mano.
                     
-                    Nuestra pasión por la cerámica artesanal se refleja en cada una de las piezas que ofrecemos. Trabajamos con materiales de alta calidad y técnicas tradicionales para asegurar la autenticidad y durabilidad de nuestras creaciones. 
-                    Cada artículo está diseñado con amor y atención al detalle, lo que garantiza que tengas una pieza única y especial en tus manos.
-                    
-                    Queremos agradecerte por visitar nuestro rincón virtual de cerámica artesanal y esperamos que te sientas inspirado(a) y emocionado(a) al explorar nuestra colección. 
-                    Si tienes alguna pregunta o deseas personalizar una pieza especial, no dudes en ponerte en contacto con nosotros.</p>
+                  Nuestra pasión por la cerámica artesanal se refleja en cada una de las piezas que ofrecemos. Trabajamos con materiales de alta calidad y técnicas tradicionales para asegurar la autenticidad y durabilidad de nuestras creaciones. 
+                  Cada artículo está diseñado con amor y atención al detalle, lo que garantiza que tengas una pieza única y especial en tus manos.</p>
                 </div>
               </div>
             </div>
           </div>  
         </article>
+        <article data-aos="fade-up">
+          <div class="nosotrosFinal card">
+            <div class="card-body">
+              <p class="card-text">Queremos agradecerte por visitar nuestro rincón virtual de cerámica artesanal y esperamos que te sientas inspirado(a) y emocionado(a) al explorar nuestra colección. 
+                Si tenes alguna pregunta o deseas personalizar una pieza especial, no dudes en ponerte en contacto con nosotros.</p></div>
+            <img src="../Imagenes/Headers/IMG_20230716_183713083 (1).jpg" class="card-img-bottom" alt="...">
+          </div>
+        </article>
       </section>
     </main>
-
-        
-        
-        
-        
-
-
-
-      
-
+    <footer>
+      <div class="card-footer bg-transparent border-success">
+        <a href="https://www.instagram.com/cuencos_que_cuentan/" target="_blank">
+          <img src="../Imagenes/flaticons/Redes Sociales/instagram (1).png" alt="">
+        </a>
+      </div>
+    </footer>
     <!-- Script de BS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Script de Animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init();</script>
    </body>
   </html>

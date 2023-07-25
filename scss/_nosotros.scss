@@ -1,2 +1,72 @@
+.paginaNosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.introduccionNosotros{
+    img{
+        height: 300px;
+        object-fit: cover;
+    }
+}
+.nosotrosPrimera{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    .imagenPrimera{
+        display: flex;
+        justify-content: center;
+        img{
+          border-radius: 50%; 
+          width: 200px;
+          padding: 10px;
+          
+        } 
+
+    }
+}
+
+.nosotrosSegunda{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 15px;
+    .imagenSegunda{
+        display: flex;
+        justify-content: center;
+        img{
+          border-radius: 50%; 
+          width: 200px;
+          padding: 10px;
+          
+        } 
+
+    }
+}
+
+.nosotrosTercera{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    .imagenTercera{
+        display: flex;
+        justify-content: center;
+        img{
+          border-radius: 50%; 
+          width: 200px;
+          padding: 10px;
+          
+        } 
+
+    }
+}
+
+.nosotrosFinal{
+    img{
+        height: 400px;
+        object-fit: cover;
+        
+    }
+}
 

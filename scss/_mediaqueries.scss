@@ -81,7 +81,6 @@
     }
 }
 // TERMINA QUERIES INDEX
-
 // INICIA QUERIES PRODUCTOS
 @media (max-width: 575.98px) {
     .filtrosProductos{
@@ -101,3 +100,22 @@
     }
 }
 // TERMINA QUERIES PRODUCTOS
+// INICIA QUEIRES CONTACTO
+@media (max-width: 575.98px){
+    .paginaContacto{
+        padding: 5px;
+        .introduccionContacto{
+            height: 250px;
+        }
+    }
+    .formularioContacto{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        .Mapa{
+            margin-top: 10px;
+        }
+    }
+}
+// TERMINA QUERIES CONTACTO

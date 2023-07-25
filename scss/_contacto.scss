@@ -1,0 +1,42 @@
+.paginaContacto{
+    padding: 20px;
+    .introduccionContacto{
+        background-color: $colorPrincipal;
+        height: 100px;
+        padding: 15px;
+        border-radius: 5px;
+        p{
+            text-align: center;
+        }
+    }
+    .formularioContacto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      form{
+        border:solid 1px black;
+        border-radius: 8px;
+        padding: 20px;
+        button{
+            margin-top: 40px;
+        }
+      }  
+    }
+    .formasContacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .card-body{
+            h2, h3, p{
+                text-align: center;
+            }
+            a{
+                img{
+                    width: 50px;
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+    
+}

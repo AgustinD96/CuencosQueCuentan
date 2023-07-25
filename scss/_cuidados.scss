@@ -7,3 +7,20 @@
     }
 }
 
+.accordion-header{
+    .botonAcordeon{
+        background-color: rgba(66,171,52,0.5);
+        color: $colorCuatro;
+        display: flex;
+        flex-direction: row;
+        img{
+            width: 40px;
+            padding: 5px;
+        }
+    }
+}
+
+
+
+
+
