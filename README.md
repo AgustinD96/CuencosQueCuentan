@@ -49,6 +49,7 @@ Cree este menu de navegacion para poder buscar los productos dependiendo de la c
 ![image](https://github.com/AgustinD96/CuencosQueCuentan/assets/138124758/c81290ab-78f3-40f4-ab58-6372b0beaddc)
 
 Aprendi como combinar muchas de las utilites, en la pagina productos se me ocurrio esta forma de crear un filtro. Visualmente es estetico, en el lado funcional debo pulir algunas cosas.
+
 ![image](https://github.com/AgustinD96/CuencosQueCuentan/assets/138124758/4b619057-1e4e-4a54-b750-e94811ed1d1f)    ![image](https://github.com/AgustinD96/CuencosQueCuentan/assets/138124758/e95732e2-9355-468e-845e-73ffa3fa9fc0)
 
 
