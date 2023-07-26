@@ -7,7 +7,48 @@ Debo decir que he aprendido un monton en esta seccion del curso, me termine de e
 Mi proyecto se basa en un e-commerce de ceramica artesanal. Esta orientado a un emprendimiento familiar. Mi madre y mi tia comenzaron con este emprendimiento hace un tiempo y me propuse a crear la pagina web para poder agilizar las ventas y presentacion de los productos y para poder empezar a agarrar algo de practica.
 El diseño va a ir cambiando a medida que mis conocimientos se vayan afinando.
 
-El diseño fue cambiando a medida de las clases, con BS todo fue mucho mas facil 
+Estos fueron mis primeros WIREFRAMES:
+WIREFRAME ESCRITORIO:
+
+1 INICIO ESCRITORIO: https://wireframe.cc/TJuSpz
+
+2 PRODUCTO ESCRITORIO: https://wireframe.cc/MJuE60
+
+3 CUIDADOS RECOMENDADOS E: https://wireframe.cc/uCfGQm
+
+4 SOBRE NOSOTROS E: https://wireframe.cc/0WDUi3
+
+5 CONTACTO ESCRITORIO: https://wireframe.cc/0TDKt5
+
+WIREFRAME MOVIL:
+
+1 INICIO MOVIL: https://wireframe.cc/fcP5ub
+
+2 PRODUCTOS MOVIL: https://wireframe.cc/54XUo0
+
+3 CUIDADOS RECOMENDADOS: https://wireframe.cc/yk9F74
+
+4 SOBRE NOSOTROS: https://wireframe.cc/NuUVys
+
+5 CONTACTO MOVIL: https://wireframe.cc/KFetWG
+
+
+El diseño fue cambiando a medida que las clases avanzaban, este fue mi primer menu de navegacion,
+![Pagina 1](https://github.com/AgustinD96/CuencosQueCuentan/assets/138124758/c137ce13-cdd7-4e5d-acfa-43d081bc05c4)
+
+Luego de aprender a usar BS cambia la cara del proyecto.
+![image](https://github.com/AgustinD96/CuencosQueCuentan/assets/138124758/e046907c-4d87-43e2-9f2c-6e85684e1d63)
+
+
+
+
+
+
+
+Los lenguajes utilizados son HTML y CSS.
+
+
+
 
 
 
