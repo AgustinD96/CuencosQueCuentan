@@ -1,17 +1,439 @@
-/* Error: Can't find stylesheet to import.
- *    ,
- * 10 | @import "_grids";
- *    |         ^^^^^^^^
- *    '
- *   scss\main.scss 10:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a    \2577 \a 10 \2502  @import \"_grids\";\d\a    \2502          ^^^^^^^^\a    \2575 \a   scss\\main.scss 10:9  root stylesheet";
+.botonGeneral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(66, 171, 52);
+  border-radius: 8px;
 }
+.botonGeneral:hover {
+  background-color: rgb(16, 101, 46);
+}
+
+.btn,
+button {
+  color: white;
+  background-color: rgb(66, 171, 52);
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+}
+
+h1 {
+  font-size: 1.3;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+nav img {
+  width: 50px;
+}
+nav .botnesNavegacion ul a:hover {
+  background-color: rgb(66, 171, 52);
+  border-radius: 5px;
+  color: white;
+}
+nav .botnesNavegacion ul a:active {
+  background-color: rgb(66, 171, 52);
+}
+nav .listaProductos {
+  background-color: rgb(66, 171, 52);
+}
+nav .listaProductos li {
+  padding: 5px;
+}
+nav .segundosBotones input {
+  border: solid 3px rgb(66, 171, 52);
+}
+nav .segundosBotones .btn {
+  background-color: rgb(66, 171, 52);
+  border: solid 2px white;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  padding: 0 40px;
+}
+header .imagenesCarrusel1 img {
+  width: 100%;
+  height: 500px;
+}
+
+section {
+  padding: 40px;
+}
+section .introduccionIndex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(66, 171, 52);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.carruselProductos {
+  padding: 20px 40px;
+}
+.carruselProductos .tarjetasProductosIndex {
+  display: flex;
+  justify-content: space-between;
+}
+.carruselProductos .tarjetasProductosIndex .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carruselProductos .tarjetasProductosIndex .card-body .btn {
+  background-color: rgb(66, 171, 52);
+  border: none;
+  color: white;
+}
+.carruselProductos .tarjetasProductosIndex .card-body .btn:hover {
+  background-color: rgb(16, 101, 46);
+}
+.carruselProductos .tarjetasProductosIndex .nuevoProducto {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.carruselProductos .tarjetasProductosIndex .nuevoProducto img {
+  width: 50px;
+  background-color: rgb(66, 171, 52);
+  border-radius: 50%;
+}
+
+.introduccionCategorias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(66, 171, 52);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.categoriasIndex {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 5px;
+}
+.categoriasIndex .imagenesCategorias {
+  display: flex;
+  width: 600px;
+}
+.categoriasIndex .imagenesCategorias img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+.categoriasIndex .imagenesCategorias .flaticonCategoria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.categoriasIndex .imagenesCategorias .flaticonCategoria img {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(66, 171, 52, 0.5);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+footer {
+  background-color: rgb(66, 171, 52);
+  height: 60px;
+}
+footer div a img {
+  width: 50px;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.filtrosProductos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 98px;
+}
+.filtrosProductos .btn {
+  background-color: rgb(66, 171, 52);
+  border: none;
+}
+.filtrosProductos .btn:hover {
+  background-color: rgb(16, 101, 46);
+}
+.filtrosProductos .btn:active {
+  background-color: rgb(16, 101, 46);
+}
+
+.productosPagina {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productosPagina .card {
+  cursor: pointer;
+}
+.productosPagina .card img {
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.productosPagina .card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.productosPagina .card .card-body h2 {
+  font-size: larger;
+}
+.productosPagina .card .btn {
+  background-color: rgb(66, 171, 52);
+  border: none;
+}
+.productosPagina .card .btn:hover {
+  background-color: rgb(16, 101, 46);
+}
+
+.IntroduccionCuidados {
+  background-color: rgb(66, 171, 52);
+  padding: 20px;
+  border-radius: 8px;
+}
+.IntroduccionCuidados h1, .IntroduccionCuidados p {
+  text-align: center;
+}
+
+.accordion-header .botonAcordeon {
+  background-color: rgba(66, 171, 52, 0.5);
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+.accordion-header .botonAcordeon:active {
+  border-color: rgb(16, 101, 46);
+}
+.accordion-header .botonAcordeon img {
+  width: 40px;
+  padding: 5px;
+}
+
+.paginaNosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introduccionNosotros img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.nosotrosPrimera {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.nosotrosPrimera .imagenPrimera {
+  display: flex;
+  justify-content: center;
+}
+.nosotrosPrimera .imagenPrimera img {
+  border-radius: 50%;
+  width: 200px;
+  padding: 10px;
+}
+
+.nosotrosSegunda {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 15px;
+}
+.nosotrosSegunda .imagenSegunda {
+  display: flex;
+  justify-content: center;
+}
+.nosotrosSegunda .imagenSegunda img {
+  border-radius: 50%;
+  width: 200px;
+  padding: 10px;
+}
+
+.nosotrosTercera {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.nosotrosTercera .imagenTercera {
+  display: flex;
+  justify-content: center;
+}
+.nosotrosTercera .imagenTercera img {
+  border-radius: 50%;
+  width: 200px;
+  padding: 10px;
+}
+
+.nosotrosFinal img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.paginaContacto {
+  padding: 20px;
+}
+.paginaContacto .introduccionContacto {
+  background-color: rgb(66, 171, 52);
+  height: 100px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.paginaContacto .introduccionContacto p {
+  text-align: center;
+}
+.paginaContacto .formularioContacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.paginaContacto .formularioContacto form {
+  border: solid 1px black;
+  border-radius: 8px;
+  padding: 20px;
+}
+.paginaContacto .formularioContacto form button {
+  margin-top: 40px;
+}
+.paginaContacto .formasContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.paginaContacto .formasContacto .card-body h2, .paginaContacto .formasContacto .card-body h3, .paginaContacto .formasContacto .card-body p {
+  text-align: center;
+}
+.paginaContacto .formasContacto .card-body a img {
+  width: 50px;
+  margin-left: 50px;
+}
+
+@media (max-width: 575.98px) {
+  .encabezadoIndex {
+    padding: 0;
+  }
+  .encabezadoIndex .imagenesCarrusel1 {
+    height: 200px;
+  }
+  .encabezadoIndex .imagenesCarrusel1 img {
+    height: 200px;
+    width: 100%;
+  }
+  section {
+    padding: 10px;
+  }
+  section .introduccionIndex {
+    padding: 10px;
+    text-align: justify;
+  }
+  .carruselProductos {
+    padding: 10px;
+  }
+  .carruselProductos h2 {
+    text-align: center;
+  }
+  .carruselProductos .tarjetasProductosIndex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .carruselProductos .tarjetasProductosIndex .card {
+    margin-top: 5px;
+  }
+  .carruselProductos .tarjetasProductosIndex .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .carruselProductos .tarjetasProductosIndex .btn {
+    background-color: rgb(66, 171, 52);
+    border: none;
+    color: white;
+  }
+  .carruselProductos .tarjetasProductosIndex .btn:hover {
+    background-color: rgb(16, 101, 46);
+  }
+  .introduccionCategorias {
+    padding: 10px;
+    text-align: center;
+  }
+  .categoriasIndex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .categoriasIndex .imagenesCategorias {
+    display: flex;
+    width: 250px;
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+  .categoriasIndex .imagenesCategorias img {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+  }
+  .categoriasIndex .imagenesCategorias .flaticonCategoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .categoriasIndex .imagenesCategorias .flaticonCategoria img {
+    width: 150px;
+    height: 140px;
+    background-color: rgba(66, 171, 52, 0.5);
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 575.98px) {
+  .filtrosProductos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .filtrosProductos .desplegableFiltros {
+    margin-right: 56px;
+  }
+  .productosPagina figure .card {
+    border: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .paginaContacto {
+    padding: 5px;
+  }
+  .paginaContacto .introduccionContacto {
+    height: 250px;
+  }
+  .formularioContacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .formularioContacto .Mapa {
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
