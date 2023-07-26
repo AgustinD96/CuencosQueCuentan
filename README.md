@@ -53,6 +53,11 @@ Aprendi como combinar muchas de las utilites, en la pagina productos se me ocurr
 ![image](https://github.com/AgustinD96/CuencosQueCuentan/assets/138124758/4b619057-1e4e-4a54-b750-e94811ed1d1f)
 ![image](https://github.com/AgustinD96/CuencosQueCuentan/assets/138124758/e95732e2-9355-468e-845e-73ffa3fa9fc0)
 
+Algo que me gusto mucho pero me costó entender y aplicar fue FlexBox y Grids. Flexbox fue practica tras practica tras practica y muchas consultas a CoderAsk hasta que pude dominarlo. Grid en cambio me costo mucho más, el sistema de grillas de BS fue lo que decidi implementar en el diseño final.
+Las grillas de BS fueron usadas en la página de contacto porque me di cuenta que a lo mejor por como estaba maquetando las otras paginas no era necesario ya que debia cambiar todo el código para poder aplicarlo a una página y tenia miedo de romper todo.
+Al final, despues de todo no era tan compicado como yo pensaba y ahora creo que quiero modificar todo mi diseño con mas Flex, Grid y las grillas de BS.
+
+
 
 
 
