@@ -7,6 +7,8 @@ Debo decir que he aprendido un monton en esta seccion del curso, me termine de e
 Mi proyecto se basa en un e-commerce de ceramica artesanal. Esta orientado a un emprendimiento familiar. Mi madre y mi tia comenzaron con este emprendimiento hace un tiempo y me propuse a crear la pagina web para poder agilizar las ventas y presentacion de los productos y para poder empezar a agarrar algo de practica.
 El diseño va a ir cambiando a medida que mis conocimientos se vayan afinando.
 
+El desarrollo de los wireframes fue cambiando durante todo el proceso, busque algunas páginas de ceramica artesanal para poder tomar algo de inspiracion.
+
 Estos fueron mis primeros WIREFRAMES:
 WIREFRAME ESCRITORIO:
 
@@ -32,9 +34,12 @@ WIREFRAME MOVIL:
 
 5 CONTACTO MOVIL: https://wireframe.cc/KFetWG
 
+El cambio es muy notorio, el diseño fue cambiando pero gracias a toodas las practicas me puedo hacer una idea de como poder proceder con un proyecto cuando se inicia desde cero.
 
 El diseño fue cambiando a medida que las clases avanzaban, este fue mi primer menu de navegacion,
 ![Pagina 1](https://github.com/AgustinD96/CuencosQueCuentan/assets/138124758/c137ce13-cdd7-4e5d-acfa-43d081bc05c4)
+
+Decidí hacer una mala practica... A medida que ibamos avanzando en el curso e ibamos desbloquendo nuevos conocimientos como Bootstrap por ejemplo iba viendo como mi codigo quedaba feo así que realice la mala practica de empezar mi proyecto de nuevo, descartando el codigo anterior y empezando de 0. Esto resulto en mucho retraso pero a la vez creo que me ayudo a poder depurar el diseño final.
 
 Luego de aprender a usar BS cambia la cara del proyecto.
 ![image](https://github.com/AgustinD96/CuencosQueCuentan/assets/138124758/e046907c-4d87-43e2-9f2c-6e85684e1d63)
