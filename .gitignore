@@ -1,3 +1,4 @@
 *.txt
 *.zip
 *.vscode
+.node_modules
