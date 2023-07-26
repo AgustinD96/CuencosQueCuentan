@@ -1,6 +1,7 @@
 # CuencosQueCuentan
 Hola a todos! Mi nombre es Agustín Delgado y les dejo aquí una breve introducción de mi vida para que me conozcan:
-Soy de Cordoba, naci aca hace 27 años, trabajo en comercio, vivo con mi novia y luego de 8 años, 3 carreras y varios cursos abandonados puedo decir que encontre algo que me gusta... La programacion, tenia algo de conociiento base en HTML y CSS y pienso orientarme al FrontEnd.
+Soy de Cordoba, naci aca hace 27 años, trabajo en comercio, vivo con mi novia y luego de 8 años, 3 carreras y varios cursos abandonados puedo decir que encontre algo que me gusta... La programacion. 
+Tenia algo de conociMiento base en HTML y CSS y pienso orientarme al FrontEnd.
 Empece con la programacion hace dos años haciendo unos cursos en la plataforma de Udemy y este año me anime a inscribirme en Coder para llevar mi estudio a otro nivel.
 Debo decir que he aprendido un monton en esta seccion del curso, me termine de enamorar del FrontEnd y estoy muy contento de poder haber tenido a una profesora que explica tan bien. Sin más preambulo les dejo acá mi README.
 
