@@ -65,9 +65,9 @@ HTML y CSS
 Frameworks:
 SASS NODE.JS BOOTSTRAP
 
-Link del Repo: https://github.com/AgustinD96/CuencosQueCuentan
+Link del Repo: https://github.com/AgustinD96/PF-DELGADO
 
-Link pages: https://agustind96.github.io/CuencosQueCuentan/
+Link pages: https://agustind96.github.io/PF-DELGADO/
 
 Link del Servidor: https://cuencos-que-cuentan.netlify.app/
 
