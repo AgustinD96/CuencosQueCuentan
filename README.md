@@ -7,7 +7,12 @@ Debo decir que he aprendido un monton en esta seccion del curso, me termine de e
 Mi proyecto se basa en un e-commerce de ceramica artesanal. Esta orientado a un emprendimiento familiar. Mi madre y mi tia comenzaron con este emprendimiento hace un tiempo y me propuse a crear la pagina web para poder agilizar las ventas y presentacion de los productos y para poder empezar a agarrar algo de practica.
 El diseño va a ir cambiando a medida que mis conocimientos se vayan afinando.
 
-El diseño fue cambiando a medida de las clases, con BS todo fue mucho mas facil 
+El diseño fue cambiando a medida de las clases, con BS todo fue mucho mas faci.
+
+Los lenguajes utilizados son HTML y CSS.
+
+
+![Pagina 1](https://github.com/AgustinD96/CuencosQueCuentan/assets/138124758/c137ce13-cdd7-4e5d-acfa-43d081bc05c4)
 
 
 
