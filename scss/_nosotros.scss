@@ -1,6 +1,5 @@
 .paginaNosotros{
-    display: flex;
-    flex-direction: column;
+    @extend .flexColumn;
     align-items: center;
 }
 

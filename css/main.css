@@ -1,12 +1,11 @@
-.botonGeneral {
+.flexColumn, .paginaContacto .formasContacto, .paginaNosotros, .productosPagina .card .card-body, .introduccionCategorias, .carruselProductos .tarjetasProductosIndex .card-body, section .introduccionIndex {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(66, 171, 52);
-  border-radius: 8px;
+  flex-direction: column;
 }
-.botonGeneral:hover {
-  background-color: rgb(16, 101, 46);
+
+.flexRow, .paginaContacto .formularioContacto, .filtrosProductos {
+  display: flex;
+  flex-direction: row;
 }
 
 .btn,
@@ -67,8 +66,6 @@ section {
   padding: 40px;
 }
 section .introduccionIndex {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   width: 100%;
   background-color: rgb(66, 171, 52);
@@ -84,8 +81,6 @@ section .introduccionIndex {
   justify-content: space-between;
 }
 .carruselProductos .tarjetasProductosIndex .card-body {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 .carruselProductos .tarjetasProductosIndex .card-body .btn {
@@ -96,20 +91,8 @@ section .introduccionIndex {
 .carruselProductos .tarjetasProductosIndex .card-body .btn:hover {
   background-color: rgb(16, 101, 46);
 }
-.carruselProductos .tarjetasProductosIndex .nuevoProducto {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-}
-.carruselProductos .tarjetasProductosIndex .nuevoProducto img {
-  width: 50px;
-  background-color: rgb(66, 171, 52);
-  border-radius: 50%;
-}
 
 .introduccionCategorias {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   width: 100%;
   background-color: rgb(66, 171, 52);
@@ -156,14 +139,8 @@ footer div a img {
 }
 
 .filtrosProductos {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding: 15px 98px;
-}
-.filtrosProductos .btn {
-  background-color: rgb(66, 171, 52);
-  border: none;
 }
 .filtrosProductos .btn:hover {
   background-color: rgb(16, 101, 46);
@@ -187,8 +164,6 @@ footer div a img {
   border-radius: 8px;
 }
 .productosPagina .card .card-body {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 .productosPagina .card .card-body h2 {
@@ -226,8 +201,6 @@ footer div a img {
 }
 
 .paginaNosotros {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -300,8 +273,6 @@ footer div a img {
   text-align: center;
 }
 .paginaContacto .formularioContacto {
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }
 .paginaContacto .formularioContacto form {
@@ -313,8 +284,6 @@ footer div a img {
   margin-top: 40px;
 }
 .paginaContacto .formasContacto {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 .paginaContacto .formasContacto .card-body h2, .paginaContacto .formasContacto .card-body h3, .paginaContacto .formasContacto .card-body p {

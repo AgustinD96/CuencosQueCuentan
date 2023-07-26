@@ -1,11 +1,9 @@
 .filtrosProductos{
-    display: flex;
-    flex-direction: row;
+    @extend .flexRow;
     justify-content: space-between;
     padding: 15px 98px ;
     .btn{
-        background-color: $colorPrincipal;     
-        border: none;
+        
         &:hover{
             background-color: $colorSecundario;
         }
@@ -21,16 +19,14 @@
     flex-wrap: wrap;
     justify-content: center;
     .card{
-        cursor: pointer;
-        
+        cursor: pointer; 
         img{
             height: 280px;
             object-fit: cover;
             border-radius: 8px;
         }
         .card-body{
-            display: flex;
-            flex-direction: column;
+            @extend .flexColumn;
             align-items: center;
             
             h2{

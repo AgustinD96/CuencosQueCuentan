@@ -1,16 +1,17 @@
-// EXTENDS. 
-.botonGeneral{
+// EXTENDS FLEX.
+.flexColumn{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $colorPrincipal;
-    border-radius: 8px;
-    &:hover{
-        background-color: $colorSecundario;
-    }
+    flex-direction: column;
 }
 
-//  MIXINS. Son grupos de acciones o propiedades que repetimos y que podemos ir modificando.
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+//  MIXINS BOTONES.
 @mixin botonesGeneral($color,$background-color, $border-radius, $padding, $border){
     color: $color;
     background-color: $background-color;
@@ -22,6 +23,9 @@
 button{
     @include botonesGeneral($colorTres, $colorPrincipal, 8px, 10px, none )
 }
+
+
+
 
 
 
